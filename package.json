@@ -18,11 +18,14 @@
     "@strapi/plugin-users-permissions": "4.15.0",
     "@strapi/provider-upload-cloudinary": "^4.15.0",
     "@strapi/strapi": "^4.15.0",
+<<<<<<< HEAD
     "pg": "8.8.0",
     "strapi": "^3.6.11",
     "strip": "^3.0.0",
     "stripe": "^14.3.0",
     "yarn": "^1.22.19"
+=======
+>>>>>>> af8839e4d71c217690793f8f90f567ecd81039b7
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
