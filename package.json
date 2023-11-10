@@ -8,17 +8,16 @@
     "name": "A Strapi developer"
   },
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "strapi build",
     "develop": "strapi develop",
     "start": "strapi start",
-    "strapi": "strapi",
-    "test": "jest"
+    "strapi": "strapi"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.15.0",
     "@strapi/plugin-users-permissions": "4.15.0",
     "@strapi/provider-upload-cloudinary": "^4.15.0",
-    "@strapi/strapi": "4.15.0",
+    "@strapi/strapi": "^4.15.0",
     "pg": "8.8.0",
     "strapi": "^3.6.11",
     "strip": "^3.0.0",
